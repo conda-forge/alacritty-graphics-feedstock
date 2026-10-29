@@ -7,7 +7,7 @@ source:
   url: https://github.com/ayosec/alacritty/archive/refs/tags/v${{ version }}-graphics.tar.gz
   sha256: 6a0da03b29e33f392009c109666680fd04340f9e25309e7e6fcd10f5e82f370a
 build:
-  number: 1
+  number: 2
 requirements:
   build:
   - ${{ compiler('rust') }}
